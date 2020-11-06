@@ -1,5 +1,5 @@
-const Queue = require("../queue/Queue");
-const store = require("../../store");
+const Queue = require('../queue/Queue');
+const store = require('../../store');
 
 // Set up initial data.
 // --------------------
@@ -19,16 +19,13 @@ module.exports = {
     if (!type) {
       return pets;
     }
-    console.log(pets[type]);
     return pets[type];
   },
 
   dequeue(type) {
-    if (type === "cats") {
-      // console.log(pets.cats);
+    if (type === 'cats') {
       pets.cats.dequeue();
-      // console.log(pets.cats);
-    } else if (type === "dogs") {
+    } else if (type === 'dogs') {
       pets.dogs.dequeue();
     }
   },

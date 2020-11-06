@@ -1,5 +1,5 @@
-const Queue = require("../queue/Queue");
-const store = require("../../store");
+const Queue = require('../queue/Queue');
+const store = require('../../store');
 
 // Set up initial data.
 // --------------------
@@ -19,6 +19,6 @@ module.exports = {
   },
 
   dequeue() {
-    people.dequeue(person);
+    people.dequeue();
   },
 };
