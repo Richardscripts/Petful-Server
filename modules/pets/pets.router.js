@@ -11,7 +11,8 @@ router.get('/', (req, res, next) => {
 });
 
 router
-  .get('/cats', (req, res, next) => {
+  .route('/cats')
+  .get((req, res, next) => {
     return res.json(Pets.get('cats'));
   })
   .delete((req, res, next) => {
@@ -20,7 +21,8 @@ router
   });
 
 router
-  .get('/dogs', (req, res, next) => {
+  .route('/dogs')
+  .get((req, res, next) => {
     return res.json(Pets.get('dogs'));
   })
   .delete((req, res, next) => {
