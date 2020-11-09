@@ -2,7 +2,9 @@
 
 ## Live Link: https://petful-client-template-theta.vercel.app/
 
+Client Repo: https://github.com/Richardscripts/Petful-Client
 Front-End: `ReactJS, JSX`
+
 Sever-Side: `NodeJS, ExpressJS`
 
 The only thing we love more than Pets is queues! And we have a lot of them. This app will demonstarte some functionality of the Queue Stack Data Structure (Dogs, Cats, and People) and how it may apply to helping those seeking to adopt a pet.
